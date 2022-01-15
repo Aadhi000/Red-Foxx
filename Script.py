@@ -7,7 +7,7 @@ class script(object):
     ABOUT_TXT = """
 ᗩᒍᗩ᙭ About Message
 ⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆
-╔════❰ ᗩᒍᗩ᙭ ❱═❍☣
+╔═════❰ ᗩᒍᗩ᙭ ❱══⪼𒆜
 ║╭━━━━━━━━━━━━━━━⏤͟͟͞͞★ 
 ║┣⪼ 𝙼𝚈 𝙽𝙰𝙼𝙴 - <a href="https://t.me/Devil0Bot_Bot"> ᗩᒍᗩ᙭ </a>
 ║┣⪼ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 - <a href="https://t.me/Aadhi010"> 𝙰𝙰𝙳𝙷𝙸 </a>
@@ -16,7 +16,7 @@ class script(object):
 ║┣⪼ 𝙳𝙰𝚃𝙰𝙱𝙰𝚂𝙴 - 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
 ║┣⪼ 𝚂𝙴𝚁𝚅𝙴𝚁 -  𝙷𝙴𝚁𝙾𝙺𝚄
 ║┣⪼ 𝙱𝚄𝙸𝙻𝚃 𝚂𝚃𝙰𝚃𝚂 - v1.0.2 [ 𝙱𝙴𝚃𝙰 ]
-║╰━━━━━━━━━━━━━━━⏤͟͟͞͞★ ╚══════════════════❍☣"""
+║╰━━━━━━━━━━━━━━━⏤͟͟͞͞★ ╚══════════════════⪼𒆜"""
     SOURCE_TXT = """<b>NOTE:</b>
 - 𝑰 𝒂𝒎  𝒂 𝒐𝒑𝒆𝒏 𝒔𝒐𝒖𝒓𝒄𝒆 𝒑𝒓𝒐𝒋𝒆𝒄𝒕. 
 - ՏOᑌᖇᑕᗴ ᑕOᗪᗴ - <a href="https://github.com/Lallu-lallus/AnnaBen_robot"> 𝗖𝗟𝗜𝗖𝗞 𝗛𝗘𝗥𝗘 </a>
@@ -249,10 +249,10 @@ This module only works for my admins
 • /broadcast - to broadcast a message to all users."""
 
     STATUS_TXT = """<b>Total Files:</b> <code>{}</code>
-<b>Total Users:</b> <code>{}</code>
-<b>Total Chats:</b> <code>{}</code>
-<b>Used Storage:</b> <code>{}</code> MiB
-<b>Free Storage:</b> <code>{}</code> MiB"""
+<b>❈ Total Users:</b> <code>{}</code>
+<b>❈ Total Chats:</b> <code>{}</code>
+<b>❈ Used Storage:</b> <code>{}</code> MB
+<b>❈ Free Storage:</b> <code>{}</code> MB"""
 
     FORCESUB_TXT = """**♦️ READ THIS INSTRUCTION ♦️**
 
