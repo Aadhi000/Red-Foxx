@@ -427,7 +427,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🔇 𝐑𝐞𝐬𝐭𝐫𝐢𝐜𝐭 ', callback_data='restric'),
             InlineKeyboardButton('🔍 𝐒𝐞𝐚𝐫𝐜𝐡 ', callback_data='search')
             ],[
-            InlineKeyboardButton('📸 𝐓𝐠𝐫𝐚𝐩𝐡 ', callback_data='tgraph')
+            InlineKeyboardButton('📸 𝐓𝐠𝐫𝐚𝐩𝐡 ', callback_data='tgraph'),
             InlineKeyboardButton('🤔 𝐖𝐡𝐨𝐢𝐬 ', callback_data='whois'),
             InlineKeyboardButton('🤡 𝐅𝐮𝐧 ', callback_data='fun')
             ],[
@@ -451,10 +451,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "about":
         buttons= [[
             InlineKeyboardButton('𝚂𝚃𝙰𝚃𝚄𝚂', callback_data='stats'),
-            InlineKeyboardButton('𝚂𝙾𝚄𝚁𝙲𝙴', callback_data='source')
+            InlineKeyboardButton('𝚂𝙾𝚄𝚁𝙲𝙴', url='https://github.com/Aadhi000/Adv-Ajax')
             ],[
-            InlineKeyboardButton('𝚂𝙴𝙰𝚁𝙲𝙷 𝙼𝙾𝚅𝙸𝙴𝚂', switch_inline_query_current_chat='')
-            ],[
+            InlineKeyboardButton('𝚂𝙴𝙰𝚁𝙲𝙷 𝙼𝙾𝚅𝙸𝙴𝚂', switch_inline_query_current_chat=''),
             InlineKeyboardButton('𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂', callback_data='help')
             ],[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='start'),
