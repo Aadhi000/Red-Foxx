@@ -398,13 +398,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url='http://t.me/dqautofl_bot?startgroup=true')
+            InlineKeyboardButton('⚚ 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ⚚', url='http://t.me/dqautofl_bot?startgroup=true')
             ],[
-            InlineKeyboardButton('sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/EDIT_REPO')
+            InlineKeyboardButton('𝐒𝐞𝐚𝐫𝐜𝐡', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url='https://t.me/+veUIdIW2CQ5mOGU5')
             ],[
-            InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
+            InlineKeyboardButton('𝐇𝐞𝐥𝐩', callback_data='help'),
+            InlineKeyboardButton('𝐀𝐛𝐨𝐮𝐭', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -414,35 +414,32 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode='html'
         )
     elif query.data == "help":
-        buttons = [[
-            InlineKeyboardButton('😎 𝐀𝐝𝐦𝐢𝐧 ', callback_data='admin')
-            ],[
+        buttons = [[            
+            InlineKeyboardButton('😎 𝐀𝐝𝐦𝐢𝐧 ', callback_data='admin'),
             InlineKeyboardButton('🗳️ 𝐂𝐨𝐧𝐧𝐞𝐜𝐭 ', callback_data='coct'),
-            InlineKeyboardButton('👻 𝐅𝐢𝐥𝐭𝐞𝐫𝐬 ', callback_data='auto_manual'),
-            InlineKeyboardButton('📖 𝐆𝐭𝐫𝐚𝐧𝐬 ', callback_data='gtrans')
+            InlineKeyboardButton('👻 𝐅𝐢𝐥𝐭𝐞𝐫𝐬 ', callback_data='auto_manual')
             ],[
+            InlineKeyboardButton('📖 𝐆𝐭𝐫𝐚𝐧𝐬 ', callback_data='gtrans'),
             InlineKeyboardButton('📄 𝐈𝐧𝐟𝐨 ', callback_data='info'),
             InlineKeyboardButton('🖥️ 𝐏𝐚𝐬𝐭𝐞 ', callback_data='paste')
             ],[
-            InlineKeyboardButton('💣 𝐏𝐮𝐫𝐠𝐞 ', callback_data='purge')
-            ],[
+            InlineKeyboardButton('💣 𝐏𝐮𝐫𝐠𝐞 ', callback_data='purge'),
             InlineKeyboardButton('🔇 𝐑𝐞𝐬𝐭𝐫𝐢𝐜𝐭 ', callback_data='restric'),
-            InlineKeyboardButton('🔍 𝐒𝐞𝐚𝐫𝐜𝐡 ', callback_data='search'),
-            InlineKeyboardButton('📸 𝐓𝐠𝐫𝐚𝐩𝐡 ', callback_data='tgraph')
+            InlineKeyboardButton('🔍 𝐒𝐞𝐚𝐫𝐜𝐡 ', callback_data='search')
             ],[
+            InlineKeyboardButton('📸 𝐓𝐠𝐫𝐚𝐩𝐡 ', callback_data='tgraph')
             InlineKeyboardButton('🤔 𝐖𝐡𝐨𝐢𝐬 ', callback_data='whois'),
             InlineKeyboardButton('🤡 𝐅𝐮𝐧 ', callback_data='fun')
             ],[
-            InlineKeyboardButton('🥱 𝐀𝐥𝐢𝐯𝐞 ', callback_data='alive')
-            ],[
+            InlineKeyboardButton('🥱 𝐀𝐥𝐢𝐯𝐞 ', callback_data='alive'),
             InlineKeyboardButton('🎶 𝐒𝐨𝐧𝐠 ', callback_data='song'),
-            InlineKeyboardButton('🖨️ 𝐉𝐬𝐨𝐧 ', callback_data='json'),
-            InlineKeyboardButton('📌 𝐏𝐢𝐧 ', callback_data='pin')
+            InlineKeyboardButton('🖨️ 𝐉𝐬𝐨𝐧 ', callback_data='json')
             ],[
+            InlineKeyboardButton('📌 𝐏𝐢𝐧 ', callback_data='pin'),
             InlineKeyboardButton('🦠 𝐂𝐨𝐯𝐢𝐝 ', callback_data='corona'),
             InlineKeyboardButton('🖨️ 𝐒𝐭𝐢𝐜𝐤𝐞𝐫𝐈𝐃 ', callback_data='stickerid')
             ],[
-            InlineKeyboardButton('« Back', callback_data='start')
+            InlineKeyboardButton('☣ 𝙱𝙰𝙲𝙺 ☣', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
