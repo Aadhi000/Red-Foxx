@@ -1,23 +1,22 @@
 class script(object):
     START_TXT = """𝙷𝙴𝙻𝙾 {},
-𝙼𝚢 𝚗𝚊𝚖𝚎 , <a href='https://t.me/Dqautofl_bot'>𝐀𝐍𝐍𝐀 𝐁𝐄𝐍</a>, 𝙸𝚝'𝚜 𝚟𝚎𝚛𝚢 𝚎𝚊𝚜𝚢 𝚓𝚞𝚜𝚝 𝚊𝚍𝚍 𝚖𝚎 𝚝𝚘 𝚢𝚘𝚞𝚛 𝚐𝚛𝚘𝚞𝚙 𝚊𝚗𝚍 𝚖𝚊𝚔𝚎 𝚖𝚎 𝚊𝚍𝚖𝚒𝚗, 𝚃𝚑𝚊𝚝𝚜 𝚊𝚕𝚕 𝙸'𝚕𝚕 𝚙𝚛𝚘𝚟𝚒𝚍𝚎 𝚖𝚘𝚟𝚒𝚎𝚜 𝚝𝚑𝚎𝚛𝚎 🤓
+𝙼𝚢 𝚗𝚊𝚖𝚎 , <a href='https://t.me/Devil0Bot_Bot'>ᗩᒍᗩ᙭</a>, 𝙸𝚝'𝚜 𝚟𝚎𝚛𝚢 𝚎𝚊𝚜𝚢 𝚓𝚞𝚜𝚝 𝚊𝚍𝚍 𝚖𝚎 𝚝𝚘 𝚢𝚘𝚞𝚛 𝚐𝚛𝚘𝚞𝚙 𝚊𝚗𝚍 𝚖𝚊𝚔𝚎 𝚖𝚎 𝚊𝚍𝚖𝚒𝚗, 𝚃𝚑𝚊𝚝𝚜 𝚊𝚕𝚕 𝙸'𝚕𝚕 𝚙𝚛𝚘𝚟𝚒𝚍𝚎 𝚖𝚘𝚟𝚒𝚎𝚜 𝚝𝚑𝚎𝚛𝚎 🤓
 """
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝘏𝘦𝘳𝘦 𝘐𝘴 𝘛𝘩𝘦 𝘏𝘦𝘭𝘱 𝘍𝘰𝘳 𝘔𝘺 𝘊𝘰𝘮𝘮𝘢𝘯𝘥𝘴."""
     ABOUT_TXT = """
-𝗧𝗛𝗜𝗦 𝗔𝗡𝗡𝗔 𝗕𝗘𝗡'𝗦 𝗔𝗕𝗢𝗨𝗧 𝗠𝗦𝗚
-✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵
-╔════❰ ꪖ᥇ꪮꪊ𝓽 ꪑ𝘴ᧁ ❱═❍⊱❁۪۪
-║╭━━━━━━━━━━━━━━━➣ 
-║┣⪼ 𝙈𝙔 𝙉𝘼𝙈𝙀 - <a href="https://t.me/Dqautofl_Bot"> 𝑨𝑵𝑵𝑨 𝑩𝑬𝑵 </a>
-║┣⪼ Ⓓ︎Ⓔ︎Ⓥ︎1 - <a href="https://t.me/pro_editor_tg"> Lalluᵗᵍ </a>
-║┣⪼ Ⓓ︎Ⓔ︎Ⓥ︎2 - <a href="https://t.me/PANDITHAN_SIR"> ⸙ꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋM-STER </a>
-║┣⪼ 𝓛𝓲𝓫𝓻𝓪𝓻𝓻𝔂 - 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
-║┣⪼ 𝓛𝓪𝓷𝓰𝓾𝓪𝓰𝓮 - 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
-║┣⪼ 𝓓𝓪𝓽𝓪 𝓑𝓪𝓼𝓮 - 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
-║┣⪼ 𝓑𝓸𝓽 𝓼𝓮𝓻𝓿𝓮𝓻 -  𝙷𝙴𝚁𝙾𝙺𝚄
-║┣⪼ 𝓑𝓾𝓲𝓵𝓭 𝓢𝓽𝓪𝓽𝓾𝓼 - v1.0.1 [ 𝙱𝙴𝚃𝙰 ]
-║╰━━━━━━━━━━━━━━━➣ ╚══════════════════❍⊱❁۪۪"""
+ᗩᒍᗩ᙭ About Message
+⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆
+╔════❰ ᗩᒍᗩ᙭ ❱═❍☣
+║╭━━━━━━━━━━━━━━━⏤͟͟͞͞★ 
+║┣⪼ 𝙼𝚈 𝙽𝙰𝙼𝙴 - <a href="https://t.me/Devil0Bot_Bot"> ᗩᒍᗩ᙭ </a>
+║┣⪼ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 - <a href="https://t.me/Aadhi010"> 𝙰𝙰𝙳𝙷𝙸 </a>
+║┣⪼ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈 - 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
+║┣⪼ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴 - 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
+║┣⪼ 𝙳𝙰𝚃𝙰𝙱𝙰𝚂𝙴 - 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
+║┣⪼ 𝚂𝙴𝚁𝚅𝙴𝚁 -  𝙷𝙴𝚁𝙾𝙺𝚄
+║┣⪼ 𝙱𝚄𝙸𝙻𝚃 𝚂𝚃𝙰𝚃𝚂 - v1.0.2 [ 𝙱𝙴𝚃𝙰 ]
+║╰━━━━━━━━━━━━━━━⏤͟͟͞͞★ ╚══════════════════❍☣"""
     SOURCE_TXT = """<b>NOTE:</b>
 - 𝑰 𝒂𝒎  𝒂 𝒐𝒑𝒆𝒏 𝒔𝒐𝒖𝒓𝒄𝒆 𝒑𝒓𝒐𝒋𝒆𝒄𝒕. 
 - ՏOᑌᖇᑕᗴ ᑕOᗪᗴ - <a href="https://github.com/Lallu-lallus/AnnaBen_robot"> 𝗖𝗟𝗜𝗖𝗞 𝗛𝗘𝗥𝗘 </a>
@@ -29,8 +28,7 @@ Note:- Give a user details
 
 •/whois :-give a user full details"""
     ALIVE_TXT ="""<b>ALIVE MODULE</b>
-• /alive - check me alive or dead🤧
-Just for a rasam😂"""
+• /alive - check me alive or dead😁"""
     CORONA_TXT ="""<b>Here is the help for the coron information module</b>
 ➡️ /covid <code>(countryname)</code> <b>you can find a corona information of every country</b>
 
