@@ -36,10 +36,14 @@ async def save_group(bot, message):
                 pass
             await bot.leave_chat(message.chat.id)
             return
-        buttons = [[
-            InlineKeyboardButton('ℹ️ 𝗛𝗲𝗹𝗽', url=f"https://t.me/{temp.U_NAME}?start=help"),
-            InlineKeyboardButton('♻️ 𝗚𝗿𝗼𝘂𝗽 ♻️', url='https://t.me/+EqhXLhL3T1w4Zjc1')
-        ]]
+        buttons = [
+            [
+                InlineKeyboardButton('🅄🄿🄳🄰🅃🄴🅂', url='https://t.me/+veUIdIW2CQ5mOGU5')
+            ],
+            [
+                InlineKeyboardButton('🄷🄴🄻🄿', url=f"https://t.me/{temp.U_NAME}?start=help"),
+            ]
+            ]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
             text=f"<b>Thankyou For Adding Me In {message.chat.title} ❣️\n\nIf you have any questions & doubts about using me contact support.</b>",
@@ -65,7 +69,7 @@ async def leave_a_chat(bot, message):
         chat = chat
     try:
         buttons = [[
-            InlineKeyboardButton('Support', url=f'https://t.me/{SUPPORT_CHAT}')
+            InlineKeyboardButton('OWNER', url=f'https://t.me/{SUPPORT_CHAT}')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
@@ -103,7 +107,7 @@ async def disable_chat(bot, message):
     await message.reply('Chat Succesfully Disabled')
     try:
         buttons = [[
-            InlineKeyboardButton('Support', url=f'https://t.me/{SUPPORT_CHAT}')
+            InlineKeyboardButton('OWNER', url=f'https://t.me/{SUPPORT_CHAT}')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
