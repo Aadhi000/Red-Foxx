@@ -10,7 +10,7 @@ from plugins.helper_functions.cust_p_filters import f_onw_fliter
 # -- Constants -- #
 ALIVE = "വെറുതെ Alive അടിച്ചു വെറുപ്പിക്കാതട ഞൻ ഇവട ജീവനോടെ ഒക്കെ തന്നെയുണ്ട് ചത്തൊന്നും പോയിട്ടില്ല 🥲"
 HELP = "Help ഒന്നും ഇല്ല ഓടിക്കോ...."
-REPO = "https://github.com/Aadhi000/Adv-Ajax"
+REPO = "https://github.com/Aadhi000/Red-Fox"
 # -- Constants End -- #
 
 
